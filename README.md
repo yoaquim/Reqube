@@ -31,7 +31,7 @@ The following list details all the components used:
 
 - [SD Card/Breakout Board][4] - make sure you get an SD card under 4GB, otherwise it won't work.
 
-- [RFID Reader][5]
+- [RFID Reader][5] - the SD card won't be formatted, meaning that it'll be written raw (bytes).
 
 - [XBee Module][6] - we used a standard Series 1.
 
@@ -39,6 +39,7 @@ The following list details all the components used:
 
 - [Arcade Button][8] - cause, why not?
 
+- LEDs - again, any will do.
 
 
 
