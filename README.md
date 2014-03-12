@@ -23,8 +23,21 @@ Although it later evolved into something more, Reqube started out as a school pr
 Components
 ----------
 
-The following list details all the components used, a short explanation, and a link to where you can buy/get more info.
+The following list details all the components used:
+
 - [MSP430F5328][2]
+
+- [FlexiForce Sensors][3]
+
+- [SD Card/Breakout Board][4] - make sure you get an SD card under 4GB, otherwise it won't work.
+
+- [RFID Reader][5]
+
+- [XBee Module][6] - we used a standard Series 1.
+
+- [Keypad][7] - practically any keypad will do.
+
+- [Arcade Button][8] - cause, why not?
 
 
 
@@ -34,3 +47,11 @@ The following list details all the components used, a short explanation, and a l
 
 [1]:https://github.com/yoaquim/JBeeCommunicator
 [2]:http://www.ti.com/product/msp430f5328
+[3]:http://www.tekscan.com/flexible-force-sensors
+[4]:https://www.sparkfun.com/products/11403
+[5]:https://www.sparkfun.com/products/11827
+[6]:https://www.adafruit.com/products/128
+[7]:https://www.adafruit.com/products/419
+[8]:https://www.sparkfun.com/products/9341
+
+
