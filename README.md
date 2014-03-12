@@ -6,7 +6,7 @@ Reqube is a hardware project created with an MSP430F5328 microcontroller and var
 Introduction
 ------------
 
-Orignially, Reqube had many facets: web application, hardware implementation and a desktop app that would communicate with the implemented device. We used force sensors to try and measure weight, an RFID tag/reader combo to identify bins, an SD card reader, a matrix keypad, plus a button and some LEDs for simple interaction, and an XBee device that would communicate with the desktop app (which also had an XBee device).  This project only encompasses the hardware implementation, though it's fairly easy to implement the other components (check out my <a href="https://github.com/yoaquim/JBeeCommunicator">JBee</a> repo for a crash course on how to communicate between the desktop app and the device). 
+Orignially, Reqube had many facets: web application, hardware implementation and a desktop app - which would recover the collected data from the implemented device and publish said data online (via the web app). We used force sensors to try and measure weight, an RFID tag/reader combo to identify bins, an SD card/reader, a matrix keypad - plus a button and some LEDs for simple interaction - and an XBee device that would communicate with the desktop app (which also had an XBee device).  This project only encompasses the hardware implementation, though it's fairly easy to implement the other components (check out my [JBee][1] repo for a crash course on how to communicate between the desktop app and the device). 
 
 Why a Desktop App?
 ------------------
@@ -18,10 +18,19 @@ You could argue that instead of a desktop application, once could just integrate
 Why an MSP430?
 --------------
 
-It started out as a school project, and that was sort of a requirement (though we preferred Arduino). All-in-all, it can be ported to an Arduino fairly easily and it provided a good basis to learn a different hardware flavor other than the current norm.
+Although it later evolved into something more, Reqube started out as a school project, and MSP430s were sort of a requirement. All-in-all, it can be ported to an Arduino fairly easily and it provided a good basis to learn a different hardware flavor other than the current norm.
 
 Components
 ----------
 
-The following list details all the components used, a short explanation and a link to where you can buy/get more info.
-- <a href="http://www.ti.com/product/msp430f5328">MSP430F5328</a>
+The following list details all the components used, a short explanation, and a link to where you can buy/get more info.
+- [MSP430F5328][2]
+
+
+
+
+
+
+
+[1]:https://github.com/yoaquim/JBeeCommunicator
+[2]:http://www.ti.com/product/msp430f5328
