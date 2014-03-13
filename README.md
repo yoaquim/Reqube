@@ -29,9 +29,9 @@ The following list details all the components used:
 
 - [FlexiForce Sensors][3]
 
-- [SD Card/Breakout Board][4] - make sure you get an SD card under 4GB, otherwise it won't work.
+- [SD Card/Breakout Board][4] - make sure you get an SD card under 4GB, otherwise it won't work. also, the SD card won't be formatted, meaning that it'll be written-to in bytes.
 
-- [RFID Reader][5] - the SD card won't be formatted, meaning that it'll be written raw (bytes).
+- [RFID Reader][5]
 
 - [XBee Module][6] - we used a standard Series 1.
 
