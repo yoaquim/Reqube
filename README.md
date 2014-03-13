@@ -27,21 +27,27 @@ The following list details all the components used:
 
 - [MSP430F5328][2]
 
-- [FlexiForce Sensors][3]
+- Three [FlexiForce Sensors][3]
 
 - [SD Card/Breakout Board][4] - make sure you get an SD card under 4GB, otherwise it won't work. also, the SD card won't be formatted, meaning that it'll be written-to in bytes.
 
 - [RFID Reader][5]
 
-- [XBee Module][6] - we used a standard Series 1.
+- Two [XBee][6] Modules- we used a standard Series 1.
 
 - [Keypad][7] - practically any keypad will do.
 
 - [Arcade Button][8] - cause, why not?
 
-- LEDs - again, any will do.
+- [LED][9]s - again, any will do.
 
 
+Setup
+-----
+
+Here's the block diagram for the MSP430F5328:
+
+![Alt text](https://github.com/yoaquim/Reqube/blob/master/res/mcu_block_diagram.png?raw=true "MSP430F5328 Block Diagram")
 
 
 
@@ -54,5 +60,6 @@ The following list details all the components used:
 [6]:https://www.adafruit.com/products/128
 [7]:https://www.adafruit.com/products/419
 [8]:https://www.sparkfun.com/products/9341
+[9]:https://www.adafruit.com/products/299
 
 
