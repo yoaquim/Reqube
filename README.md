@@ -3,8 +3,6 @@ Reqube
 
 Reqube is a hardware project created with an MSP430F5328 microcontroller and various peripherals. It allows for recycling bins to be weighed, identified,  and categorized according to their contents. This allows for some pretty sweet data collection. The initial idea was to push all data online so viewers could track their recycling behavior, but please feel free to expand it to whatever it can fulfil. 
 
-<b>NOTE: Documentation is still ongoing.</b>
-
 Introduction
 ------------
 
